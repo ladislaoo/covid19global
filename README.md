@@ -1,6 +1,6 @@
 # covid19global
 
-A small project in fluter about covid19 progress in the wolrd.
+A small project in fluter about covid19 progress in the world.
 
 ## Getting Started
 
