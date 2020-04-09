@@ -1,5 +1,5 @@
 name: covid19global
-description: A new Flutter project.
+description: A test Flutter .
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -27,13 +27,17 @@ dependencies:
   http:
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.7.4
   flutter_test:
     sdk: flutter
 
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/images/covid.png"
 # The following section is specific to Flutter.
 flutter:
 
@@ -46,7 +50,8 @@ flutter:
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
-
+  assets:
+  - assets/images/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
